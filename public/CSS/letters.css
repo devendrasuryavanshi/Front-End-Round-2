@@ -1,0 +1,20 @@
+.tbl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data, .data-2 {
+    margin-top: 40px;
+    border-radius: 20px;
+    width: 90vw;
+    border: 2px solid #f4f4f4;
+}
+
+.data p {
+    background-color: #111;
+}
+
+.data-2 h3 {
+    padding: 20px 0;
+}

@@ -1,0 +1,14 @@
+td a {
+    display: flex;
+    flex-direction: row;
+}
+
+td a span {
+    font-size: 30px !important;
+    padding: 10px;
+    height: 55px;
+}
+
+h2 {
+    text-align: center;
+}

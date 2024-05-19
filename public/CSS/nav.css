@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+}
+
+nav {
+    width: 90vw;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid #f4f4f4;
+    /* background-color: brown; */
+}
+
+.logo-img {
+    width: 10%;
+    height: 50px;
+    object-fit: cover; /* Cover the container */
+    object-position: center; /* Center the image */
+}
+
+
+footer {
+    margin-top: 100px;
+}
+
+.geico {
+    border-top: 2px solid #f4f4f4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.geico h1 {
+    color: #404c7e;
+}
+
+.geico p {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #111;
+}
+
+.part2 {
+    margin: 50px 0;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.part2 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.part2 p {
+    width: 70%;
+    background-color: #111;
+}
